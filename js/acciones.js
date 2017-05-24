@@ -1,12 +1,12 @@
 // JavaScript Document
 
 $(document).ready(function(e) {
-    document.addEventListener("deviceready",onDeviceReady,false);
+  document.addEventListener("deviceready",onDeviceReady,false);
 });
 
 function  onDeviceReady() {
 	
-	$('posicion').on('click',function(){
+	$('#posicion').on('click',function(){
 		getPosition ();
 	});
 	
