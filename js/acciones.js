@@ -37,7 +37,7 @@ function  onDeviceReady() {
 	  };
 	  
 	  function onError(error){
-		  alert('code:'  +error.code   +'\n'+'message:'+errro.message+'\n');
+		  alert('code:'  +error.code   +'\n'+'message:'+error.message+'\n');
 	  }
   }
   
@@ -64,7 +64,7 @@ function  onDeviceReady() {
 	  };
 	  
 	  function onError(error){
-		  alert('code:'   +error.code   +'\n'+'message:'+errro.message+'\n');
+		  alert('code:'   +error.code   +'\n'+'message:'+error.message+'\n');
 	  }
   }
 	
